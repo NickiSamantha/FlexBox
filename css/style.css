@@ -1,0 +1,33 @@
+*,
+*::before ,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: blueviolet;
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+.container{
+    display: flex;
+    background-color: palevioletred;
+    margin-left: 30rem;
+    margin-right: 32.1rem;
+    justify-content: center;
+}
+.container > div{
+    background-color: paleturquoise;
+    margin: .1rem ; 
+    padding: 2rem ;
+    font-size: 1rem;
+}
+.Paragraphs{
+    color: aqua;
+    background-color: black;
+    margin-left: 30rem;
+    margin-right: 32rem;
+
+}
